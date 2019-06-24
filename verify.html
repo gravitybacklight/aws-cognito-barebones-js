@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>verify</title>
+</head>
+<body>
+  <form id="doVerify" method="POST">
+    Username: <input type="text" name="verify-username"><br>
+    Verification Code: <input type="text" name="verify-code"><br>
+    <input id="verify-button" type="submit" value="Verify">
+  </form>
+  <script type="text/javascript" src="amazon-cognito-identity.min.js"></script>
+  <script type="text/javascript" src="user.js"></script>
+</body>
+</html>
