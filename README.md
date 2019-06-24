@@ -35,9 +35,9 @@ The pool is configured to allow email login also.
 You should now be able to run load all 3 html files locally and successfully communicate with cognito.
 Use your browsers developer tools to see the console whilst you test as all output goes there.
 
-register.html = create a user within your userpool and it will sent you a verification code via email
-verify.html = the emailed verification code can be entered with your username
-login.html = your username/email and password are used here, the console will show your access token
+* register.html = create a user within your userpool and it will sent you a verification code via email
+* verify.html = the emailed verification code can be entered with your username
+* login.html = your username/email and password are used here, the console will show your access token
 
 ## Thanks
 (https://github.com/RomanKosobrodov/aws-cognito-js-example) - Gave a brilliant kickstart in figuring out where i was going wrong with my testing
