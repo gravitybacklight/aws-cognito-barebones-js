@@ -1,9 +1,9 @@
 'use strict';
 function getPoolData(){
 	return {
-			UserPoolId: 'USERPOOL_ID_HERE',
+            UserPoolId: 'USERPOOL_ID_HERE',
             ClientId: 'APPCLIENT_ID_HERE'
-		};
+        };
 }
 
 window.onload = function() {
