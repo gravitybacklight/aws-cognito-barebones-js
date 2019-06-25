@@ -16,7 +16,7 @@ window.onload = function() {
             let password = regData.get('register-password');
             let email = regData.get('register-email');
             doRegister(username, password, email);
-        }
+        };
     }
 
     let verifyForm = document.getElementById('doVerify');
@@ -27,7 +27,7 @@ window.onload = function() {
             let username = verifyData.get('verify-username');
             let code = verifyData.get('verify-code');
             doVerify(username, code);
-        }
+        };
     }
 
     let loginForm = document.getElementById('doLogin');
@@ -38,7 +38,7 @@ window.onload = function() {
             let username = loginData.get('login-username');
             let password = loginData.get('login-password');
             doLogin(username, password);
-        }
+        };
     }
 };
 
@@ -100,7 +100,7 @@ function doLogin(username, password) {
     let userAuth = {
         Username : username,
         Password : password
-    }
+    };
     let authenticationDetails = new AmazonCognitoIdentity.AuthenticationDetails(userAuth);
     cognitoUser.authenticateUser(authenticationDetails, {
         onSuccess: function (result) {
